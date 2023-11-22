@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: new-application-3
+    applicationId: app_1769f196-ea78-428a-bcff-1ad1c65c6763
+    version: v0.0.1
+  name: new-application-3
+spec:
+  selector:
+    app: new-application-3
